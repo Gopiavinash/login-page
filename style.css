@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  color: black;
+}
+
+p,
+label {
+  color: #535c68;
+}
+
+p {
+  margin-top: 30px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  background-color: #f7f1e3;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+.forgot-pass {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 28px;
+}
+
+button {
+  width: 300px;
+  height: 35px;
+  color: white;
+  background-color: #2980b9;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button .lock {
+  width: 15px;
+  float: left;
+  margin-left: 10px;
+}
+
+.submit-1 {
+  color: white;
+}
+
+.share-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-1 {
+  min-width: 600px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-1 .share-details input {
+  width: 350px;
+  height: 150px;
+}
+.button-1 {
+  width: 80px;
+  font-weight: 500;
+  border: 1px solid grey;
+  border-radius: 3px;
+  color: black;
+  background-color: white;
+}
+
+.item-2 {
+  min-width: 600px;
+  margin-top: 5px;
+  margin-top: 10px;
+  padding: 3px;
+  border: 1px solid gray;
+}
+
+.comment-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.comment-section .button-1 {
+  margin-top: 0px;
+}
+
+.item-21 {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-21 .item-21 input {
+  height: 50px;
+}
+
+.comments {
+  margin: 5px 0px 0px 10px;
+}
+
+@media (max-width: 420px) {
+  .wrapper-1 {
+    padding: 0 20px;
+  }
+
+  .item-1 {
+    min-width: 350px;
+  }
+
+  .item-1 .share-details input {
+    width: 250px;
+    height: 75px;
+  }
+
+  .button-1 {
+    width: 60px;
+  }
+
+  .item-2 {
+    min-width: 350px;
+  }
+}
